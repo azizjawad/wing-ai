@@ -27,7 +27,7 @@ if (isset($_POST['id'])){
         }
     }
 
-    exit(json_encode(['status' => true, 'data' => $_POST]));
+    exit(json_encode(['status' => false]));
 }
 
 function is_not_empty_fields($array){
